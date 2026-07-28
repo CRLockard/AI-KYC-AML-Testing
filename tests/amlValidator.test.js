@@ -2,6 +2,8 @@ import {
   isLargeTransaction,
   isHighRiskCountry,
   shouldFlagTransaction,
+  calculateRiskScore,
+  isStructuring,
 } from "../src/amlValidator";
 
 describe("AML Validation Tests", () => {
@@ -28,5 +30,21 @@ describe("AML Validation Tests", () => {
     };
 
     expect(shouldFlagTransaction(transaction)).toBe(true);
+  });
+
+  test("detects structuring activity", () => {
+    const transactions = [{ Amount: 9800 }, { Amount: 9700 }, { Amount: 9600 }];
+
+    expect(isStructuring(transactions)).toBe(true);
+  });
+
+  test("calculates high risk score", () => {
+    const transaction = {
+      Amount: 20000,
+      Country: "Iran",
+      TransactionType: "Cash Deposit",
+    };
+
+    expect(calculateRiskScore(transaction)).toBe(100);
   });
 });
