@@ -1,0 +1,11 @@
+CustomerID,FirstName,LastName,DOB,SSN,Address,City,State,Email,Phone,Occupation,RiskLevel,KYCStatus
+1001,John,Smith,1985-04-22,123456789,123 Main St,Atlanta,GA,john.smith@email.com,4045551001,Engineer,Low,Approved
+1002,Jane,Brown,1979-09-11,987654321,456 Oak Ave,Dallas,TX,jane.brown@email.com,2145551002,Teacher,Low,Approved
+1003,Michael,Johnson,1992-01-15,456789123,789 Pine Rd,Miami,FL,michael.j@email.com,3055551003,Consultant,Medium,Pending
+1004,Sarah,Davis,1988-07-03,741852963,12 Lake Dr,Seattle,WA,sarah.d@email.com,2065551004,Nurse,Low,Approved
+1005,David,Wilson,1974-12-20,369258147,98 Hill Ln,Denver,CO,david.w@email.com,7205551005,Business Owner,High,Pending
+1006,Emily,Moore,1995-02-28,159357486,77 Cedar Ct,Phoenix,AZ,emily.m@email.com,6025551006,Student,Low,Approved
+1007,James,Taylor,1981-06-19,951753852,65 River Rd,Boston,MA,james.t@email.com,6175551007,Lawyer,Medium,Pending
+1008,Linda,Anderson,1990-10-08,753951456,44 Birch St,Chicago,IL,linda.a@email.com,3125551008,Accountant,Low,Approved
+1009,Robert,Thomas,1983-11-30,258369147,91 Elm St,New York,NY,robert.t@email.com,2125551009,Financial Analyst,High,Pending
+1010,Amanda,Jackson,1997-05-14,654987321,28 Sunset Blvd,Los Angeles,CA,amanda.j@email.com,3105551010,Marketing Specialist,Low,Approved
